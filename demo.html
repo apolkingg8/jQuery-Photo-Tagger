@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Comment On Photo Demo</title>
+    <link rel="stylesheet" href="Styles/Main.css">
+    <link rel="stylesheet" href="Styles/jquery-ui-1.10.3.custom.css">
+    <script type="text/javascript" src="Libs/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="Libs/jquery-ui-1.10.3.custom.js"></script>
+    <script type="text/javascript" src="CommentOnPhoto.js"></script>
+    <style>
+        body {
+            background-color: #d1d1d1;
+        }
+
+        .imageContent {
+            padding: 20px;
+            width: 1000px;
+            margin: auto;
+            border: #a1a1a1 1px solid;
+            text-align: center;
+            }
+    </style>
+</head>
+<body>
+    <div class="imageContent">
+        <img class="testImage" data-copid="img1" src="Images/10974963553_594b9e8416_o.jpg">
+        <img class="testImage" data-copid="img2" src="Images/10974744995_a3751754b0_o.jpg">
+        <img class="testImage" data-copid="img3" src="Images/10974981643_c78cda4d67_o.jpg">
+    </div>
+    <script>
+        var setCookie = function(cname,cvalue,exdays){
+            var d = new Date();
+            d.setTime(d.getTime()+(exdays*24*60*60*1000));
+            var expires = "expires="+d.toGMTString();
+            document.cookie = cname + "=" + cvalue + "; " + expires;
+        };
+        var getCookie = function(cname){
+            var name = cname + "=";
+            var ca = document.cookie.split(';');
+            for(var i=0; i<ca.length; i++)
+            {
+                var c = ca[i].trim();
+                if (c.indexOf(name)==0) return c.substring(name.length,c.length);
+            }
+            return "";
+        };
+
+        var test = $('.testImage').COP({
+            renderCommentsInInit: false,
+            renderData: getCookie('copCookie'),
+            userName: {
+                name: 'Cust000'
+            },
+            callback: function(event, stat){
+                // post callback
+                // use cookie storage for demo
+                var temp = [stat];
+
+                if(getCookie('copCookie')){
+                    var cookie = JSON.parse(getCookie('copCookie'));
+                    for(var i = 0; i < cookie.length; i += 1){
+                        temp.push(cookie[i]);
+                    }
+                }
+                setCookie('copCookie',JSON.stringify(temp), 30);
+            }
+        });
+
+        test.COP('refreshComments', getCookie('copCookie'), 'img1');
+    </script>
+</body>
+</html>
