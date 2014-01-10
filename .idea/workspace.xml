@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eed5858b-6a9a-4496-95a8-7e9955ff0b2e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/CommentOnPhoto.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CommentOnPhoto.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/EIJI.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Styles/Main.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+    <list default="true" id="eed5858b-6a9a-4496-95a8-7e9955ff0b2e" name="Default" comment="remove options.delete&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo.html" afterPath="$PROJECT_DIR$/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CommentOnPhoto.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,10 +31,10 @@
           <file leaf-file-name="CommentOnPhoto.js" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/CommentOnPhoto.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="62" column="56" selection-start="1579" selection-end="1579" vertical-scroll-proportion="0.46280992" vertical-offset="972" max-vertical-offset="5676">
+                <state line="42" column="24" selection-start="941" selection-end="941" vertical-scroll-proportion="-0.077922076" vertical-offset="990" max-vertical-offset="5808">
                   <folding>
-                    <element signature="e#2576#3855#0" expanded="false" />
-                    <element signature="e#4657#5314#0" expanded="false" />
+                    <element signature="e#2644#3923#0" expanded="false" />
+                    <element signature="e#4725#5382#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -65,10 +56,10 @@
           <file leaf-file-name="demo.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/demo.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="67" column="0" selection-start="2388" selection-end="2388" vertical-scroll-proportion="0.86519605" vertical-offset="460" max-vertical-offset="1386">
+                <state line="20" column="8" selection-start="676" selection-end="676" vertical-scroll-proportion="0.5147059" vertical-offset="20" max-vertical-offset="1430">
                   <folding>
-                    <element signature="e#1094#1319#0" expanded="false" />
-                    <element signature="e#1360#1670#0" expanded="false" />
+                    <element signature="e#1090#1315#0" expanded="false" />
+                    <element signature="e#1356#1666#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -189,14 +180,30 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="225" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="244" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="settings" />
     <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="225" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="246" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1149" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1149" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="246" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="244" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="FullScreen" value="false" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="options.lastSelected" value="settings" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
@@ -262,6 +269,11 @@
       <created>1388912378555</created>
       <updated>1388912378555</updated>
     </task>
+    <task id="LOCAL-00001" summary="remove options.delete&#10;">
+      <created>1389364790262</created>
+      <updated>1389364790262</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -288,6 +300,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295964" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -314,6 +327,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="remove options.delete&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove options.delete&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -328,8 +343,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="59" column="39" selection-start="1924" selection-end="1924" vertical-scroll-proportion="0.0" vertical-offset="594" max-vertical-offset="1540">
           <folding>
-            <element signature="e#2576#3855#0" expanded="false" />
-            <element signature="e#4657#5314#0" expanded="false" />
+            <element signature="e#2644#3923#0" expanded="false" />
+            <element signature="e#4725#5382#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -352,8 +367,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="67" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
           <folding>
-            <element signature="e#1094#1319#0" expanded="false" />
-            <element signature="e#1360#1670#0" expanded="false" />
+            <element signature="e#1090#1315#0" expanded="false" />
+            <element signature="e#1356#1666#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -362,8 +377,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="59" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="858">
           <folding>
-            <element signature="e#2576#3855#0" expanded="false" />
-            <element signature="e#4657#5314#0" expanded="false" />
+            <element signature="e#2644#3923#0" expanded="false" />
+            <element signature="e#4725#5382#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -379,8 +394,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="30" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0" vertical-offset="308" max-vertical-offset="506">
           <folding>
-            <element signature="e#1094#1319#0" expanded="false" />
-            <element signature="e#1360#1670#0" expanded="false" />
+            <element signature="e#1090#1315#0" expanded="false" />
+            <element signature="e#1356#1666#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -389,8 +404,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="132">
           <folding>
-            <element signature="e#2576#3855#0" expanded="false" />
-            <element signature="e#4657#5314#0" expanded="false" />
+            <element signature="e#2644#3923#0" expanded="false" />
+            <element signature="e#4725#5382#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -445,20 +460,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CommentOnPhoto.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="56" selection-start="1579" selection-end="1579" vertical-scroll-proportion="0.46280992" vertical-offset="972" max-vertical-offset="5676">
+        <state line="42" column="24" selection-start="941" selection-end="941" vertical-scroll-proportion="-0.077922076" vertical-offset="990" max-vertical-offset="5808">
           <folding>
-            <element signature="e#2576#3855#0" expanded="false" />
-            <element signature="e#4657#5314#0" expanded="false" />
+            <element signature="e#2644#3923#0" expanded="false" />
+            <element signature="e#4725#5382#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="0" selection-start="2388" selection-end="2388" vertical-scroll-proportion="0.86519605" vertical-offset="460" max-vertical-offset="1386">
+        <state line="20" column="8" selection-start="676" selection-end="676" vertical-scroll-proportion="0.5147059" vertical-offset="20" max-vertical-offset="1430">
           <folding>
-            <element signature="e#1094#1319#0" expanded="false" />
-            <element signature="e#1360#1670#0" expanded="false" />
+            <element signature="e#1090#1315#0" expanded="false" />
+            <element signature="e#1356#1666#0" expanded="false" />
           </folding>
         </state>
       </provider>
