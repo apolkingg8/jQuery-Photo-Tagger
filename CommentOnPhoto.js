@@ -16,7 +16,11 @@
                 hint: 'Somebody'
             },
 
-            renderCommentsInInit: true,
+            renderComments: {
+                onInit: true,
+                afterPost: true
+            },
+
             renderData: {}
         },
 
@@ -268,7 +272,9 @@
                 that._trigger('callback', null, that._stat);
 
                 // render single comment
-                that._renderComments(that._stat);
+                if(this.options.renderComments.onInit){
+                    that._renderComments(that._stat);
+                }
 
                 $draggableBox.addClass('cop_hide');
             });
@@ -285,7 +291,7 @@
 
             this._bindEvents();
 
-            if(this.options.renderCommentsInInit){
+            if(this.options.renderComments.onInit){
                 this._renderComments(this.options.renderData);
             }
         }

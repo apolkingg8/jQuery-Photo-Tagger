@@ -46,7 +46,9 @@
         };
 
         var test = $('.testImage').COP({
-            renderCommentsInInit: false,
+            renderComments: {
+                onInit: false
+            },
             renderData: getCookie('copCookie'),
             userName: {
                 name: 'Cust000'
