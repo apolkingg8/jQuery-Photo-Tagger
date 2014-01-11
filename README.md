@@ -16,18 +16,23 @@ CommentOnPhoto
 [CommentOnPhoto.js](https://github.com/apolkingg8/CommentOnPhoto/blob/master/CommentOnPhoto.js)  
 套件的js檔案
 
-[CommentOnPhoto.less](https://github.com/apolkingg8/CommentOnPhoto/blob/master/Styles/Main.less)  
-套件的style檔案, 也可以直接拿編譯後的Main.css來做修改
+[CommentOnPhoto.css](https://github.com/apolkingg8/CommentOnPhoto/blob/master/Styles/CommentOnPhoto.css)  
+套件的style檔案, 也可以直接拿編譯前的CommentOnPhoto.less來做修改
 
 ### 使用方法
 
-引入必須檔案(button style預設是使用jqueryui的style, 可以在)
+引入必須檔案(button style預設是使用jqueryui的style, 可以在CommentOnPhoto.css中做修改)
 ```html
-    <link rel="stylesheet" href="Styles/Main.css">
+    <link rel="stylesheet" href="Styles/CommentOnPhoto.css">
     <link rel="stylesheet" href="Styles/jquery-ui-1.10.3.custom.css">
     <script type="text/javascript" src="Libs/jquery-1.9.1.js"></script>
     <script type="text/javascript" src="Libs/jquery-ui-1.10.3.custom.js"></script>
     <script type="text/javascript" src="CommentOnPhoto.js"></script>
+```
+
+初始化  
+```js
+$('.test').COP();
 ```
 
 ## API Document
