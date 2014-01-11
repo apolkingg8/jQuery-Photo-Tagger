@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eed5858b-6a9a-4496-95a8-7e9955ff0b2e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Images/demo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Images/demo.png" afterPath="$PROJECT_DIR$/Images/demo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CommentOnPhoto.iws" />
@@ -415,7 +415,11 @@
       <created>1389425147943</created>
       <updated>1389425147943</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix less&#10;&#10;">
+      <created>1389425264537</created>
+      <updated>1389425264537</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
