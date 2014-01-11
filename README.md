@@ -58,7 +58,7 @@ $('.testImg').COP({
 });
 ```
 #### btnSubmitText
-`String``Post'`  
+`String``Defaule:'Post'`  
 送出按鈕的顯示文字
 ```js
 $('.testImg').COP({
@@ -66,7 +66,7 @@ $('.testImg').COP({
 });
 ```
 #### btnCancelText   
-`String``Cancel'`  
+`String``Defaule:'Cancel'`  
 取消按鈕的顯示文字
 ```js
 $('.testImg').COP({
