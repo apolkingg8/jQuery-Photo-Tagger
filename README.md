@@ -29,7 +29,7 @@ CommentOnPhoto
     <script type="text/javascript" src="Libs/jquery-ui-1.10.3.custom.js"></script>
     <script type="text/javascript" src="CommentOnPhoto.js"></script>
 ```
-給予img一個data-copid屬性作為套件索引
+給予img一個`data-copid`屬性作為套件索引
 ```html
 <img class="testImage" data-copid="img1" src="Images/10974963553_594b9e8416_o.jpg">
 ```
@@ -49,14 +49,16 @@ var cops = $('.testImg').COP({
 ```
 下面會列出可使用的options
 
-#### hintText   
+#### hintText
+`String``Defaule:'Comment on this photo...'`  
 要在圖片上方提示欄顯示的文字
 ```js
 $('.testImg').COP({
     hintText: '在這張圖片上留言'
 });
 ```
-#### btnSubmitText   
+#### btnSubmitText
+`String``Post'`  
 送出按鈕的顯示文字
 ```js
 $('.testImg').COP({
@@ -64,6 +66,7 @@ $('.testImg').COP({
 });
 ```
 #### btnCancelText   
+`String``Cancel'`  
 取消按鈕的顯示文字
 ```js
 $('.testImg').COP({
@@ -71,10 +74,11 @@ $('.testImg').COP({
 });
 ```
 #### userName   
+`Object``Defaule:'{ canEdit: false,name: 'NoName', hint: 'Somebody'}'`  
 使用者名稱的相關設定  
-canEdit: 是否可以輸入使用者名稱  
-name: 使用者名稱（不開放輸入的情況下）  
-hint: 使用者名稱欄位的預設值（開放輸入的情況下）
+`canEdit`: 是否可以輸入使用者名稱  
+`name`: 使用者名稱（不開放輸入的情況下）  
+`hint`: 使用者名稱欄位的預設值（開放輸入的情況下）
 ```js
 $('.testImg').COP({
     userName: {
@@ -85,11 +89,13 @@ $('.testImg').COP({
 });
 ```
 #### renderComments
+`Object``Defaule:'{ onInit: true,afterPost: true}'`  
 輸出留言的相關設定  
 onInit: 在初始化後依據renderData輸出留言  
 afterPost: 在送出留言後將留言貼至圖片上  
 
 #### renderData
+`Object``Defaule:'{}'`  
 留言的資料檔案，格式可接受JSON，單一Object（一則留言）或JSON String
 ```js
 [{
@@ -116,6 +122,7 @@ afterPost: 在送出留言後將留言貼至圖片上
 }]
 ```
 #### callback
+`Function``Defaule:function(){}`  
 按下張貼按鈕後呼叫的callback function
 ```js
 var test = $('.testImage').COP({
@@ -133,6 +140,7 @@ var test = $('.testImage').COP();
 test.COP('refreshComments', getCookie('copCookie'));
 ```
 #### refreshComments
+`format: ('refreshComments', Object renderData, Opion String [copid])`  
 更新留言，可選擇只更新部分圖片上的留言
 ```js
 // init before use methods
