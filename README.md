@@ -2,6 +2,7 @@ CommentOnPhoto
 ==============
 
 在圖片上留言的jQuery Plugin
+DemoPage: [http://apolkingg8.github.io/DemoPages/COP/demo.html](http://apolkingg8.github.io/DemoPages/COP/demo.html)
 
 ## Getting Started
 
@@ -158,7 +159,7 @@ test.COP('refreshComments', getCookie('copCookie'), img1);
 
 Mail: apolkingg8@gmail.com
 
-Blog: 
+Blog: [[產出] 在圖片上留言的jQuery plugin - CommentOnPhoto](http://apolkingg8.logdown.com)
 
 ## Update Notes
 
