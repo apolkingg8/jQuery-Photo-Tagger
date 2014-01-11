@@ -6,6 +6,19 @@
 @z-index-comments-chooseBox: 10;
 @z-index-comments-arrowAndCommentBox: 200;
 
+.chooseBox {
+  border: #a1a1a1 3px dashed;
+  .border-radius(5px);
+  z-index: @z-index-comments-chooseBox;
+  height: 100px;
+  width: 100px;
+  display: block;
+
+  &.cop_hover {
+    border-color: #000000;
+  }
+}
+
 .cop_wrapper {
   position: relative;
 
@@ -36,12 +49,7 @@
       display: inline;
 
       .cop_chooseBox {
-        border: #a1a1a1 3px dashed;
-        .border-radius(5px);
-        z-index: 100;
-        height: 100px;
-        width: 100px;
-        display: block;
+        .chooseBox;
       }
 
       .cop_commentBox {
@@ -74,12 +82,7 @@
       position: absolute;
 
       .cop_comments_chooseBox {
-        border: #a1a1a1 3px dashed;
-        .border-radius(5px);
-        z-index: @z-index-comments-chooseBox;
-        height: 100px;
-        width: 100px;
-        display: block;
+        .chooseBox;
       }
 
       .cop_comments_arrow {

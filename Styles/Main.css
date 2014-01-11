@@ -1,3 +1,19 @@
+.chooseBox {
+  border: #a1a1a1 3px dashed;
+  -webkit-border-radius: 5px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 5px;
+  -moz-background-clip: padding;
+  border-radius: 5px;
+  background-clip: padding-box;
+  z-index: 10;
+  height: 100px;
+  width: 100px;
+  display: block;
+}
+.chooseBox.cop_hover {
+  border-color: #000000;
+}
 .cop_wrapper {
   position: relative;
 }
@@ -34,10 +50,13 @@
   -moz-background-clip: padding;
   border-radius: 5px;
   background-clip: padding-box;
-  z-index: 100;
+  z-index: 10;
   height: 100px;
   width: 100px;
   display: block;
+}
+.cop_wrapper .cop_imageBox .cop_draggableBox .cop_chooseBox.cop_hover {
+  border-color: #000000;
 }
 .cop_wrapper .cop_imageBox .cop_draggableBox .cop_commentBox {
   cursor: default;
@@ -74,6 +93,9 @@
   height: 100px;
   width: 100px;
   display: block;
+}
+.cop_wrapper .cop_imageBox .cop_comments .cop_comments_chooseBox.cop_hover {
+  border-color: #000000;
 }
 .cop_wrapper .cop_imageBox .cop_comments .cop_comments_arrow {
   -webkit-opacity: 0.9;

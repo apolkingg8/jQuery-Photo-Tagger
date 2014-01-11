@@ -66,7 +66,6 @@
                     $('.cop_wrapper').filter('[data-copid="' + copid + '"]')
                         .find('.cop_comments').remove();
                     this._renderComments(temp);
-                    console.log(temp);
                 }
             }else{
                 $('.cop_comments').remove();
@@ -148,11 +147,11 @@
         _bindCommentEvents: function(){
             $('.cop_comments').find('.cop_comments_chooseBox').hover(
                 function(){
-                    $(this).css('border-color', '#000000');
+                    $(this).addClass('cop_hover');
                     $(this).parent().find('.cop_comments_arrow').removeClass('cop_hide');
                     $(this).parent().find('.cop_comments_commentBox').removeClass('cop_hide');
                 }, function(){
-                    $(this).css('border-color', '#a1a1a1');
+                    $(this).removeClass('cop_hover');
                     $(this).parent().find('.cop_comments_arrow').addClass('cop_hide');
                     $(this).parent().find('.cop_comments_commentBox').addClass('cop_hide');
                 }
@@ -272,7 +271,7 @@
                 that._trigger('callback', null, that._stat);
 
                 // render single comment
-                if(this.options.renderComments.onInit){
+                if(that.options.renderComments.afterPost){
                     that._renderComments(that._stat);
                 }
 
