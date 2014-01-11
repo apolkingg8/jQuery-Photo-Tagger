@@ -1,7 +1,7 @@
 CommentOnPhoto
 ==============
 
-在圖片上留言的jQuery Plugin
+在圖片上留言的jQuery Plugin  
 DemoPage: [http://apolkingg8.github.io/DemoPages/COP/demo.html](http://apolkingg8.github.io/DemoPages/COP/demo.html)
 
 ## Getting Started
